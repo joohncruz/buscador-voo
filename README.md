@@ -40,7 +40,7 @@ Para utilização do projeto verifique se você tem instalado o Node.js e o npm 
 Para clone do projeto use o comando 
 
 ```
-https://github.com/joohncruz/buscador-voo.git
+git clone https://github.com/joohncruz/buscador-voo.git
 ```
 
 Acesse a pasta raiz do projeto e execute os comandos abaixo: 
