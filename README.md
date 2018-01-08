@@ -35,6 +35,14 @@ Toda estrutura de webpack foi realizada manualmente para facilitar manutençao, 
 
 Infelismente o grid-layout para a utilização do app para o desktop nao ficou pronto, solicito que abra em uma resolução inferior a 1023px.
 
+Para utilização do projeto verifique se você tem instalado o Node.js e o npm no seu computador pelos comandos “node -v” e “npm -v”. Para instalar essa ferramentas consulte a documentação disponível em (https://nodejs.org/en/) e (https://www.npmjs.com/).
+
+Para clone do projeto use o comando 
+
+```
+https://github.com/joohncruz/buscador-voo.git
+```
+
 Acesse a pasta raiz do projeto e execute os comandos abaixo: 
 
 ```
