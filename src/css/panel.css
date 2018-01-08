@@ -1,0 +1,32 @@
+.panel {
+  background-color: var(--main-bg-clear);
+  border-radius: 5px;
+}
+
+.panel__header {
+  padding: 20px;
+  position: relative;
+}
+
+.panel__header h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: .90rem;
+  margin: 0;
+}
+
+.panel__header__details {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.panel__header__details i {
+  color: var(--main-color);
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.panel__body {
+  display: none;
+}

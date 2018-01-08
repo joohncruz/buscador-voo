@@ -1,0 +1,10 @@
+:root {
+  --main-bg-clear: rgb(255, 255, 255);
+  --main-bg-color: rgb(237, 243, 248);
+  --main-color: rgb(26, 188, 156);
+  --main-color-dark: rgb(22, 167, 138);
+  --second-color: rgb(135, 147, 149);
+  --border: rgb(216, 216, 216);
+  --border-dark: rgb(117, 129, 131);
+  --warning-color: rgb(240, 171, 0);
+}

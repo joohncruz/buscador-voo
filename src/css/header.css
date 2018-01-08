@@ -1,0 +1,66 @@
+.header {
+  background-color: var(--main-bg-clear);
+  position: relative;
+}
+
+.header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.header i {
+  margin-right: 10px;
+}
+
+.header__details {
+  border: 1px solid var(--warning-color);
+  border-radius: 3px;
+  padding: 5px 15px;
+  position: absolute;
+  right: 10px;
+  top: 9px;
+}
+
+.header__details i {
+  color: var(--second-color);
+}
+
+.header__details span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.header__options {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  'options-sell options-doubt options-auth'
+  ;
+}
+
+.header__options i {
+  font-size: 2rem;
+}
+
+.header__options__sell {
+  grid-area: options-sell;
+}
+
+.header__options__doubt {
+  grid-area: options-doubt;
+}
+
+.header__options__auth {
+  grid-area: options-auth;
+}
+
+@media screen and (min-width:1024px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}

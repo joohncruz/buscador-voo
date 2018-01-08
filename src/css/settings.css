@@ -1,0 +1,38 @@
+.settings {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: 2px solid var(--border);
+  background-color: var(--main-bg-clear);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  'settings          visualize'
+  ;
+}
+
+.settings span {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-weight: 700;
+}
+
+.settings i {
+  margin-right: 5px;
+}
+
+.settings__filter {
+  padding: 15px 0;
+  position: relative;
+  grid-area: settings;
+  border-right: 2px solid var(--border);
+}
+.visualize__filter {
+  padding: 15px 0;
+  position: relative;
+  grid-area: visualize;
+}
+

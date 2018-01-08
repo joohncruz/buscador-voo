@@ -1,0 +1,28 @@
+.loader {
+  background-color: var(--main-bg-clear);
+  border-radius: 5px;
+}
+
+.loader__header {
+  padding: 20px;
+  position: relative;
+}
+
+.loader__header h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: .90rem;
+  margin: 0;
+}
+
+.loader__header__details {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.loader__header__details i {
+  color: var(--main-color);
+  margin: 0;
+  font-size: 1.5rem;
+}

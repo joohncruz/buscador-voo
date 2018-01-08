@@ -1,0 +1,124 @@
+.list__header {
+  padding: 0 10px;
+  background-color: var(--second-color);
+  color: var(--main-bg-clear);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: .90rem;
+  text-align: center;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+  'company departure duration arrival'
+  ;
+}
+
+.list__header > div {
+  border-right: 1px solid var(--border-dark);
+  padding: 20px 0;
+}
+
+.list__header > div:last-child {
+  border-right: 0;
+}
+
+.list__header__departure{
+  grid-area: company;
+}
+
+.list__header__departure {
+  grid-area: departure;
+}
+
+.list__header__duration {
+  grid-area: duration;
+}
+
+.list__header__arrival {
+  grid-area: arrival;
+}
+
+.list__item {
+  background-color: var(--main-bg-clear);
+  margin: 0 0 10px 0;
+  padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: .90rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  'item-company item-departure item-duration item-arrival'
+  'item-price   item-price     item-price    item-price'
+  'item-details item-details   item-details  item-details'
+  ;
+}
+
+.list__item b {
+  display: block;
+}
+
+.list__item p {
+  margin: 0;
+}
+
+.list__item a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-weight: 700;
+}
+
+.list__item i {
+  margin-right: 5px;
+}
+
+.list__item button {
+  width: 100%;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.list__item--company {
+ padding: 20px 0;
+ grid-area: item-company;
+}
+
+.list__item--departure {
+  padding: 20px 0;
+  grid-area: item-departure;
+}
+
+.list__item--duration {
+  padding: 20px 0;
+  grid-area: item-duration;
+}
+
+.list__item--arrival {
+  padding: 20px 0;
+  grid-area: item-arrival;
+}
+
+.list__item--price {
+  grid-area: item-price;
+  border-top: 1px dashed var(--border);
+  padding: 20px 0;
+}
+
+.list__item--price b {
+  display: initial;
+  text-decoration: line-through;
+}
+
+.list__item--price--economy {
+  color: var(--warning-color);
+  font-weight: 700;
+}
+
+.list__item--details {
+  grid-area: item-details;
+  border-top: 1px dashed var(--border);
+}

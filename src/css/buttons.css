@@ -1,0 +1,46 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-bottom: 3px solid var(--main-color-dark) !important;
+}
+
+.btn--primary {
+    color: var(--main-bg-clear);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn--lg {
+    padding: .5rem 1.5rem;
+    font-size: 0.90rem;
+    border-radius: .3rem;
+}
+
+.btn--sm {
+  padding: .2rem .6rem;
+  padding-bottom: 5px;
+  font-size: 0.80rem;
+  border-radius: .3rem;
+}
+
+
+.btn--block {
+    width: 15rem;
+}
+

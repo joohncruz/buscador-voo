@@ -1,0 +1,13 @@
+.menu {
+    background-color: var(--main-bg-clear);
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.90em;
+}
+
+.menu--active {
+    border-bottom: 3px solid;
+    border-bottom-color: var(--main-color);
+}
