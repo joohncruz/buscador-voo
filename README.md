@@ -37,12 +37,21 @@ Infelismente o grid-layout para a utilização do app para o desktop nao ficou p
 
 Acesse a pasta raiz do projeto e execute os comandos abaixo: 
 
+```
 npm i -g webpack
+```
+```
 npm i -g webpack-dev-server
-
+```
+```
 npm install
+```
 
 Para inicializar a aplicação utilize o comando npm start e acesso o link local gerado http://localhost:3000/
 
+```
 npm start
+```
+
+
 
