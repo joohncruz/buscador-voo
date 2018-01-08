@@ -15,21 +15,21 @@ Toda estrutura de webpack foi realizada manualmente para facilitar manutençao, 
 
 ### Bibliotecas Utilizadas  ###
 
-  axios
-  react
-  react-dom
-  babel-core
-  babel-eslint
-  babel-loader
-  babel-preset-es2015
-  babel-preset-react
-  babel-preset-stage-0
-  react-hot-loader
-  standard
-  standard-loader
-  webpack
-  webpack-dev-server
-  webpack-validator
+ * axios
+ * react
+ * react-dom
+ * babel-core
+ * babel-eslint
+ * babel-loader
+ * babel-preset-es2015
+ * babel-preset-react
+ * babel-preset-stage-0
+ * react-hot-loader
+ * standard
+ * standard-loader
+ * webpack
+ * webpack-dev-server
+ * webpack-validator
 
 ### Como executar o projeto?  ###
 
@@ -46,6 +46,3 @@ Para inicializar a aplicação utilize o comando npm start e acesso o link local
 
 npm start
 
-### Obrigado! ###
-
-Infelismente nao consegui aproveitar da melhor forma possivel o tempo disponibilizado para o teste. Mas desde já agradeço.
